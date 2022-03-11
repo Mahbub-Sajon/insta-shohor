@@ -79,6 +79,19 @@
         </main>
         <footer></footer>
 
+
+
+
+        <section>
+            <h5 class="text-danger">Question and answers</h5>
+            <p>
+                <span class="text-success">Question: 2. What does javascript event loop do?</span> <br>
+                Answer: As we know javascript is a single threded language, which means it can execute an event at a time in the mean time other events stay in queue list which is known as event queue. And if the event is a function and that function calls another function then it waits untill the first function is done which is basically a call stack and this whole process can be determined as a synchronous event. Well, there is another thing which is asynchronous event that can execute multiple events at a time. Well, not exactly like this cause our javascript is still a single threaded language so what happens is, it starts executing a function and while executing, it can keep that in a queue through call back and can go to the next event. After finishing the first function's execution it can show the result while the second one is already processing or maybe it is also done within the time. So, asynchronous is basically less time consuming even if it is single threaded. 
+
+               
+            </p>
+        </section>
+
         <!-- add javascript  file  -->
         <script src="./js/app.js"></script>
     </body>
